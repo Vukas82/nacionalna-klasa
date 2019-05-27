@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" /> -->
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+
+    <!-- Do not include both lightslider.js and lightslider.min.js -->
+    <script src="https://code.jquery.com/jquery-1.11.0.js"
+        integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw=" crossorigin="anonymous"></script>
+    <script src="./lightslider.js"></script>
+
+    <!-- ------------------- -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700|Roboto:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nacionalan Klasa</title>
+    <link rel="stylesheet" href="./css/lightslider.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- <div class="grid"> -->
+    <header>
+        <h1>Restoran nacionalna klasa u beogradu, srpska kuhinja</h1>
+        <div class="jezik">
+            <a href="#">ENG</a>
+            <a href="#">SR</a>
+        </div>
+
+    </header>
+    <!-- ----------------------------------drop -->
+    <!-- <div class="dropdown">
+            <button class="dropbtn" style="padding:0.8rem 0.2rem;">MENTALNA ARITMETIKA</button>
+            <div class="dropdown-content">
+                <a href="#">Šta je mentalna aritmetika SuanPan?</a>
+                <a href="#">Program je mentalne aritmetike SuanPan</a>
+                <a href="#">Abakus i matematičke operacije</a>
+                <a href="#">Kursevi mentalne aritmetike SuanPan</a>
+                <a href="#">Ciljevi mentalne aritmetike SuanPan</a>
+            </div>
+        </div> -->
+
+    <!-- <a href="#">
+                <h2>O restoranu</h2>
+            </a> -->
+    <!-- end drop -->
+
+
+
+    <nav>
+        <div class="container">
+            <div class="container__left">
+                <ul>
+
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn" style="padding:0.8rem 0.2rem;"><a href="#">
+                                    <h2>O restoranu</h2>
+                                </a></button>
+                            <div class="dropdown-content dropdown-content-left">
+                                <div class="dropdown__content__extra__space"></div>
+                                <a href="#">
+                                    <h2>O nama</h2>
+                                </a>
+                                <a href="#">
+                                    <h2>Glavni Kuvar</h2>
+                                </a>
+                                <a href="#">
+                                    <h2>Naš tim</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn" style="padding:0.8rem 0.2rem;"><a href="#">
+                                    <h2>Jelovnik</h2>
+                                </a></button>
+                            <div class="dropdown-content dropdown-content-left">
+                                <div class="dropdown__content__extra__space"></div>
+                                <a href="#">
+                                    <h2>O</h2>
+                                </a>
+                                <a href="#">
+                                    <h2>G K</h2>
+                                </a>
+                                <a href="#">
+                                    <h2>N</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- <li><a href="#">
+                            <h2>Jelovnik</h2>
+                        </a></li> -->
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn" style="padding:0.8rem 0.2rem;"><a href="#">
+                                    <h2>Dostava</h2>
+                                </a></button>
+                            <div class="dropdown-content dropdown-content-left dropdown-content-dostava">
+                                <div class="dropdown__content__extra__space"></div>
+                                <a href="#">
+                                    <h2>O</h2>
+                                </a>
+                                <a href="#">
+                                    <h2>G K</h2>
+                                </a>
+                                <a href="#">
+                                    <h2>N</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- <li><a href="#">
+                            <h2>Dostava</h2>
+                        </a></li> -->
+                    <!-- <li><a href="#">
+                            <h2>Vesti</h2>
+                        </a></li> -->
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn" style="padding:0.8rem 0.2rem;"><a href="#">
+                                    <h2>Vesti</h2>
+                                </a></button>
+                            <div class="dropdown-content dropdown-content-left dropdown-content-vesti">
+                                <div class="dropdown__content__extra__space"></div>
+                                <a href="#">
+                                    <h2>O</h2>
+                                </a>
+                                <a href="#">
+                                    <h2>G K</h2>
+                                </a>
+                                <a href="#">
+                                    <h2>N</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- logo space -->
+            <div class="container__right">
+                <ul>
+                    <!-- <li><a href="#">
+                            <h2>Blog</h2>
+                        </a></li> -->
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn" style="padding:0.8rem 0.2rem;"><a href="#">
+                                    <h2>Blog</h2>
+                                </a></button>
+                            <div class="dropdown-content dropdown-content-right">
+                                <div class="dropdown__content__extra__space"></div>
+                                <a href="#">
+                                    <h2>O</h2>
+                                </a>
+                                <a href="#">
+                                    <h2>G K</h2>
+                                </a>
+                                <a href="#">
+                                    <h2>N</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- <li><a href="#">
+                            <h2>Galerija</h2>
+                        </a></li> -->
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn" style="padding:0.8rem 0.2rem;"><a href="#">
+                                    <h2>Galerija</h2>
+                                </a></button>
+                            <div class="dropdown-content dropdown-content-right">
+                                <div class="dropdown__content__extra__space"></div>
+                                <a href="#">
+                                    <h2>O</h2>
+                                </a>
+                                <a href="#">
+                                    <h2>G K</h2>
+                                </a>
+                                <a href="#">
+                                    <h2>N</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn" style="padding:0.8rem 0.2rem;"><a href="#">
+                                    <h2>Rezervacija</h2>
+                                </a></button>
+                            <div class="dropdown-content dropdown-content-right dropdown-content-rezervacija">
+                                <div class="dropdown__content__extra__space"></div>
+                                <a href="#">
+                                    <h2>+381 69 25 25 123</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- <li><a href="#">
+                            <h2>Rezarvacije</h2>
+                        </a></li> -->
+                    <!-- <li><a href="#">
+                            <h2>Kontakt</h2>
+                        </a></li> -->
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn" style="padding:0.8rem 0.2rem;"><a href="#">
+                                    <h2>Kontakt</h2>
+                                </a></button>
+                            <div class="dropdown-content dropdown-content-right dropdown-content-kontakt">
+                                <div class="dropdown__content__extra__space"></div>
+                                <a href="#">
+                                    <h2>+381 69 25 25 123</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container__contact__ico">
+                <div class="vertical__line"></div> <a href="#"> <i class="fa fa-phone" aria-hidden="true"></i> </a>
+                <div class="vertical__line"></div> <a href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> </a>
+            </div>
+
+
+        </div>
+    </nav>
+
+
+    <!-- <div class="logo"> -->
+    <!-- <img src="./img/logo-nacionalna-klasa-restoran.svg" alt="nacionalna-klasa-restoran"> -->
+    <img class="logo" src="./img/logo-restoran-nacionalna-klasa.png" alt="nacionalna-klasa-restoran">
+    <img src="./img/trougao.png" alt="" class="trougao">
+    <!-- </div> -->
+    <div class="grid" id="grid">
+
+        <div class="showcase">
+            <ul id="lightSlider">
+                <li class="img__container img1">
+
+                    <img src="./img/Nacionalna-klasa-1.jpg" alt="" style="height:90vh; width:100vw;">
+                    <div class="text__slika">
+                        <h3>Najlepša lokacija u Beogradu</h3>
+                        <p>Restoran nacionalna klasa nalazi se nadomak ušća i mesta gde se reka Sava uliva u Dunav</p>
+                    </div>
+                </li>
+                <li class="img__container img2">
+                    <img src="./img/Nacionalna-klasa-2.jpg" alt="" style="height:90vh; width:100vw;">
+                    <div class="text__slika">
+                        <h3>Najlepša lokacija u Beogradu</h3>
+                        <p>Restoran nacionalna klasa nalazi se nadomak ušća i mesta gde se reka Sava uliva u Dunav</p>
+                    </div>
+                </li>
+                <li class="img__container img3">
+                    <img src="./img/Nacionalna-klasa-1.jpg" alt="" style="height:90vh; width:100vw;">
+                    <div class="text__slika">
+                        <h3>Najlepša lokacija u Beogradu</h3>
+                        <p>Restoran nacionalna klasa nalazi se nadomak ušća i mesta gde se reka Sava uliva u Dunav</p>
+                    </div>
+                </li>
+                <li class="img__container img4">
+                    <img src="./img/Nacionalna-klasa-2.jpg" alt="" style="height:90vh; width:100vw;">
+                    <div class="text__slika">
+                        <h3>Najlepša lokacija u Beogradu</h3>
+                        <p>Restoran nacionalna klasa nalazi se nadomak ušća i mesta gde se reka Sava uliva u Dunav</p>
+                    </div>
+                </li>
+            </ul>
+            <!-- <h3>Najlepša lokacija u Beogradu</h3>
+            <p>Restoran nacionalna klasa nalazi se nadomak ušća i mesta gde se reka Sava uliva u Dunav</p> -->
+        </div>
+
+        <main>
+            <content class="main__content__1">
+
+                <h3>Restoran</h3>
+
+
+                <div class="restoran">
+                    <p>A hotel restaurant</p>
+                    <p>With Michelin stars?</p>
+                    <p>The famouse chef Berasategui in Barcelona</p>
+
+                </div>
+
+            </content>
+            <content class="main__content__2">
+                <p>
+                    Beogradsko Ušće, lokalitet koji je već decenijama poprište najuzbudljivijih auto-trka u regionu od
+                    juna 2017. je obogacen jos jednom lepom pričom. Kao omaž velikoj strasti i u želji da ugostiteljska
+                    ponuda prestonice bude bogatija, na istom mestu sada se nalazi restoran NACIONALNA KLASA.<br>
+                    <br>
+                    Beograđanima nije potrebno objašnjavati koliko je sama lokacija restorana idealna i koliko je lep
+                    pogled na Savu i Kalemegdan s ovog mesta. U novom, modernom enterijeru i već legendarnoj bašti
+                    restorana NACIONALNA KLASA biće vam poslužena prvoklasna jela domaće i internacionalne kuhinje.
+                    Boemskom ugođaju doprinosi bogati muzički program, tako da su gastronomski užitak i dobar provod
+                    zagarantovani. Za vašeg ljubimca na točkovima postoji prostran i besplatan javni parking.<br>
+                    <br>
+                    Restoran NACIONALNA KLASA raspolaže kapacitetima za sve vrste privatnih proslava i poslovnih
+                    događaja, tako da sa punim poverenjem organizaciju istih možete poveriti ljubaznom i profesionalnom
+                    timu restorana.<br>
+                    <br>
+                    Mesto za vaš pobednički krug restoran NACIONALNA KLASA na Ušću.
+                </p>
+                <!-- <button></button> -->
+                <div class="button">
+                    <a href="#">DISCOVER THE MENU
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+
+            </content>
+        </main>
+        <!-- kraj glavnog dela -->
+
+
+        <!-- end of grid -->
+    </div>
+
+    <!-- <div class="showcase">
+        showCase
+        <h3>Najlepša lokacija u Beogradu</h3>
+        <p>Restoran nacionalna klasa nalazi se nadomak ušća i mesta gde se reka Sava uliva u Dunav</p>
+    </div> -->
+    <!-- <script src="./main.js"></script> -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#lightSlider").lightSlider({
+                item: 1,
+                speed: 1000, //ms'
+                auto: false,
+                loop: false,
+                pause: 3000,
+                adaptiveHeight: false,
+
+
+
+            });
+        });
+    </script>
+</body>
+
+</html>

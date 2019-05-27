@@ -1,0 +1,47 @@
+header {
+    height: 2rem;
+    text-align: center;
+    background-color: $heder-pozadina;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        font-family: $textHeder;
+        color: $bela;
+        display: inline;
+        font-size: $fontSize-heder;
+        font-weight: 100;
+        margin: auto;
+        margin-left: calc((100% - 356.750px)/2);
+
+    }
+
+    a {
+        float: right;
+        font-family: $textHeder;
+        color: $bela;
+        margin-right: 5px;
+        margin-left: 5px;
+        text-decoration: none;
+        font-size: $fontSize-heder;
+        font-weight: 300;
+    }
+
+    .jezik {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        margin-right: 12px;
+
+        a {
+            margin: auto;
+        }
+
+        a:hover {
+            color: #870000;
+        }
+    }
+
+}

@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $bela;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 2rem 1fr;
+    overflow-x: hidden;
+}
+
+.dark_body {
+    background-color: #554d4a;
+    opacity: .2;
+}

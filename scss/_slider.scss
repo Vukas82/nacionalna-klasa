@@ -1,0 +1,49 @@
+.showcase {
+    grid-area: showcase;
+    grid-row-start: 3;
+    position: relative;
+    height: auto;
+
+    .img__container {
+        position: relative;
+        // dodato
+
+    }
+}
+
+.showcase #lightSlider .img__container .text__slika {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 180px;
+    text-align: center;
+    z-index: 500;
+    left: 0;
+
+    color: white;
+    font-weight: 200;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 99%);
+
+    h3 {
+        font-size: 24px;
+        font-family: $textNav;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 21px;
+        font-family: $textHeder;
+        font-weight: 300;
+        margin-bottom: 40px;
+    }
+}
+
+// #lightSlider {
+//     height: auto;
+// }

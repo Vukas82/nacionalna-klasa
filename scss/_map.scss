@@ -1,0 +1,158 @@
+.holder {
+    grid-area: maps;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    animation: mapAnim 1s ease-in-out;
+    z-index: 3000;
+    background-color: #555555c5;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+    .dropdown__ico__map {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 4px;
+        right: 0px;
+        z-index: 5000;
+        background-color: #870000;
+
+        button {
+            width: 100%;
+            animation: mapAnimOpen 3s ease;
+
+            background-color: inherit;
+            color: $heder-pozadina;
+            font-size: $fontSize-nav;
+            font-weight: 300;
+            font-family: $textNav;
+            border: none;
+            padding: .8rem 0;
+            height: 5rem;
+            outline: none;
+        }
+
+        a {
+            cursor: default;
+        }
+
+        h2 {
+            cursor: default;
+        }
+
+        i {
+            color: #ffffff;
+            animation: mapAnimOpenIco 2s ease-in-out infinite;
+            cursor: default;
+        }
+    }
+
+    #maps {
+        width: 90%;
+        height: 80%;
+        background-color: #ffffff;
+        position: relative;
+        border-radius: 5px;
+
+
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+
+        h5 {
+            font-family: $textNav;
+            font-size: 34px;
+            font-weight: 300;
+            color: $heder-pozadina;
+            position: absolute;
+            top: -40px;
+            left: 40px;
+        }
+
+        a {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            color: #870000;
+            text-align: center;
+        }
+
+        #map {
+            width: 100%;
+            height: 80%;
+        }
+
+        @keyframes mapAnimOpen {
+            0% {
+                transform: translateY(90px);
+            }
+
+            20% {
+                transform: translateY(0px);
+            }
+
+            40% {
+                transform: translateY(55px);
+            }
+
+            60% {
+                transform: translateY(0px);
+            }
+
+
+            80% {
+                transform: translateY(25px);
+            }
+
+
+            100% {
+                transform: translateY(0);
+            }
+
+        }
+
+        @keyframes mapAnimOpenIco {
+            0% {
+                transform: translateY(-5px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(-5px);
+            }
+        }
+    }
+}
+
+.map {
+
+    animation: mapAnim 1s ease-in-out;
+}
+
+@keyframes mapAnim {
+    0% {
+        transform: scaleY(0) scale(1.3);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scaleY(1) scale(1);
+    }
+}
+
+
+// and of map

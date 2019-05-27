@@ -1,0 +1,152 @@
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 180px 1fr 1px 1fr 180px;
+    grid-auto-rows: minmax(80vh, auto);
+    grid-template-areas: ". main__1 main__2 main__2 .";
+    padding: 3rem 3rem;
+
+    .main__content__1 {
+        grid-area: main__1;
+        background-color: $bela;
+        // padding: 2rem;
+
+        h3 {
+            font-family: $textNav;
+            font-size: 54px;
+            font-weight: 300;
+            color: $heder-pozadina;
+            border-bottom: 1px solid #ddd7cb;
+            width: 73%;
+
+        }
+
+        .restoran {
+            font-family: $textHeder;
+            font-size: 50px;
+            font-weight: 300;
+            color: $heder-pozadina;
+            border-bottom: 1px solid #ddd7cb;
+            width: 73%;
+
+            p {
+                font-size: 30px;
+                font-family: $textHeder;
+                font-weight: 300;
+                color: $heder-pozadina;
+
+            }
+        }
+    }
+
+
+    .main__content__2 {
+        grid-area: main__2;
+        padding: 2rem 0;
+
+        p {
+            font-size: 18px;
+            font-family: $textHeder;
+            font-weight: 300;
+            color: $heder-pozadina;
+            line-height: 1.5;
+            text-align: justify;
+
+        }
+
+    }
+
+    .button {
+        float: right;
+        display: flex;
+        margin: 0;
+        margin-right: -27px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: inherit;
+        width: 320px;
+        height: 100px;
+    }
+
+    .button a {
+        padding: 1.5rem 2.2rem;
+        // padding-right: 0;
+        font-size: 20px;
+        color: $heder-pozadina;
+        font-family: $textHeder;
+        position: absolute;
+        display: block;
+        text-decoration: none;
+        overflow: hidden;
+    }
+
+    span:nth-child(odd) {
+        display: block;
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background-color: $heder-pozadina;
+        transition: 0.3s ease-in-out;
+    }
+
+    span:nth-child(even) {
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 2px;
+        background-color: $heder-pozadina;
+        transition: 0.3s ease-in-out;
+    }
+
+    span:nth-child(1) {
+        top: 0;
+        left: -90%;
+        transition-delay: .1s;
+    }
+
+    span:nth-child(3) {
+        bottom: 0;
+        right: 100%;
+    }
+
+    span:nth-child(2) {
+        top: -70%;
+        left: 0;
+        transition-delay: .1s;
+    }
+
+    span:nth-child(4) {
+        bottom: 100%;
+        right: 0;
+    }
+}
+
+.button a:hover {
+    span:nth-child(1) {
+        top: 0;
+        left: 100%;
+        box-shadow: 5px 5px 15px $heder-pozadina;
+    }
+
+    span:nth-child(3) {
+        bottom: 0;
+        right: -90%;
+        transition-delay: .4s;
+        box-shadow: -5px -5px 15px $heder-pozadina;
+    }
+
+    span:nth-child(2) {
+        top: 100%;
+        left: 0;
+        box-shadow: 5px 5px 15px $heder-pozadina;
+    }
+
+    span:nth-child(4) {
+        bottom: -70%;
+        right: 0;
+        transition-delay: .4s;
+        box-shadow: -5px -5px 15px $heder-pozadina;
+    }
+}
